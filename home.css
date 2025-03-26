@@ -152,6 +152,7 @@ header {
     object-fit: contain;
 }
 
+/* Smoth animation */
 @keyframes moveRight {
     from {
         transform: translateX(0);
@@ -193,47 +194,5 @@ header {
     }
 }
 
-@media (max-width: 600px) {
-    header {
-        padding: 15px;
-    }
-    
-    .menu-links {
-        gap: 10px;
-        justify-content: center;
-    }
-    
-    .menu-links li a {
-        font-size: 14px;
-    }
-    
-    .content {
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-        top: 50%;
-        padding: 0 20px;
-    }
-    
-    .greeting {
-        font-size: 40px;
-    }
-    
-    .name {
-        font-size: 50px;
-    }
-    
-    .description {
-        margin: 0 auto 30px;
-    }
-    
-    .woman-container {
-        position: fixed;
-        left: 50%;
-        transform: translateX(-50%);
-        bottom: 0;
-        opacity: 0.4;
-        z-index: -1;
-        animation: none;
-    }
-}
+
+
